@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+ font-family: "sans-serif", "Roboto";
+ display: flex;
+ flex-direction: column;
+
+}
+
+.header {
+ background-color: #1F2937;
+ color: white;
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.thin-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.thick-header {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    justify-content: space-around;
+    padding: 75px;
+}
+
+.header-text {
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0px;
+
+}
+
+.links {
+    display: flex;
+    column-gap: 16px;
+    padding-left: 0px;
+}
+
+.photo-container {
+    align-self: center;
+    flex: 1 2 auto;
+
+}
+
+.section-one {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-two {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-three {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer {
+
+}
+
+ul {
+    list-style: none;
+    padding-left: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
